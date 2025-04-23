@@ -5,8 +5,8 @@
 }
 body { 
   display: flex;
-  flex: 1;
   flex-direction: column;
+  font-size: 13px;
   font-family: 'jetbrains mono', monospace;
   background-color: #4e4d4d; 
   color: white;
@@ -22,6 +22,8 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  width: 100%; 
 }
 
 #profile {
@@ -41,12 +43,31 @@ img {
   background-color: white; 
   color: black;
 }
+
 #summary {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 } 
+
+#education, #experience {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-hobbies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.child {
+  flex: 1;
+}
 
 div {
   padding: 10px
@@ -56,8 +77,8 @@ div {
   color: cornflowerblue;
 }
 
-il {
-  margin-left: 5px;
+ul {
+  margin-left: 20px;
 }
 
 a {
