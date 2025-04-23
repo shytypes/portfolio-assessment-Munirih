@@ -8,7 +8,6 @@ body {
   flex: 1;
   flex-direction: column;
   font-family: 'jetbrains mono', monospace;
-  justify-content: center;
   background-color: #4e4d4d; 
   color: white;
 }
@@ -20,7 +19,6 @@ img {
 header {
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 div {
   padding: 10px
@@ -55,7 +53,9 @@ il {
   margin-left: 10px;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 /*title text style*/
 /* the font-family 'JetBrains Mono', has been linked
