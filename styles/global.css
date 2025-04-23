@@ -51,9 +51,8 @@ img {
   text-align: center;
 } 
 
-#education, #experience {
+.education-experience-container {
   display: flex;
-  flex: 1;
   flex-direction: column;
   justify-content: center;
 }
@@ -62,6 +61,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 5rem;
   
 }
 
