@@ -16,6 +16,11 @@ body {
 }
 img {
   border-radius: 50%;
+  width: 160px; 
+  height: 160px; 
+  object-fit: cover; 
+  display: block; 
+  margin: auto;
 }
 
 .container {
